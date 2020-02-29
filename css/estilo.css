@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+#view {
+    width: 100%;
+    height: auto;
+}
+
+fieldset {
+    background-color:rgba(220,220,220,0.9);
+}
+
+legend {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#porta-visor {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visor {
+    width: 100%;
+    height: 45px;
+    font-size:30px;
+    text-align: right;
+    font-weight: 700;
+    background-color: #fff6d5;
+}
+
+input[type=number] {
+    overflow: hidden;
+}
+
+#teclado {
+    background-color: black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 25%;
+    height: 70px;
+}
+
+.operacoes {
+    background-color: #dbe6ef;
+}
+
+#enter {
+    width: 25%;
+    height: 70px;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #fff6d5;
+}
+
+#clear {
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    left: 5.3%;
+    top: 8.2%;
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+h2 {
+    color: rgba(2,2,2,0.3);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
+
+@media (min-width: 525px) {
+    #view {
+        width: 510px;
+        height: auto;
+        margin: 50px auto;
+    }
+    
+    fieldset {
+        background-color:rgba(220,220,220,0.9);
+    }
+    
+    legend {
+        color: black;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    #porta-visor {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #visor {
+        width: 100%;
+        height: 45px;
+        font-size:30px;
+        text-align: right;
+        font-weight: 700;
+        background-color: #fff6d5;
+    }
+    
+    input[type=number] {
+        overflow: hidden;
+    }
+    
+    #teclado {
+        background-color: black;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    button {
+        width: 25%;
+        height: 70px;
+    }
+    
+    .operacoes {
+        background-color: #dbe6ef;
+    }
+    
+    #enter {
+        width: 25%;
+        height: 70px;
+        font-size: 13px;
+        font-weight: 800;
+        background-color: #fff6d5;
+    }
+
+    #clear {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: -68px;
+        top: 50px;
+        color: red;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    h2 {
+        color: rgba(2,2,2,0.3);
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+}

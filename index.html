@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta chaset="UTF-8">
+        <meta name="viewport" content="width="device-width, initial-scale=1">
+        <title>Calculadora com HTML, CSS e JS puros</title>
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="icon" href="imagens/calculadora.png">
+        
+        <script language="javascript" src="js/script.js"></script>
+
+    </head>
+
+    <body>
+        <div id="view">
+            <form action="" method="">
+                <fieldset>
+                    <legend>calculadora</legend>
+                    <div id="porta-visor">
+                        <input id="clear" type="submit" name="clear" value="C">
+                        <input id="visor" type="number" name="visor" placeholder="0" disabled>
+                    </div><br>
+                    <div id="teclado">
+                        <!--PRIMEIRA LINHA DE TECLAS-->
+                        <button id="sete" type="button" name="sete" value="7" onclick="tratamento('sete')">7</button><!--
+                        --><button id="oito" type="button" name="oito" value="8" onclick="tratamento('oito')">8</button><!--
+                        --><button id="nove" type="button" name="nove" value="9" onclick="tratamento('nove')">9</button><!--
+                        --><button class="operacoes" id="adicao" type="button" name="adicao" value="adicao" onclick="tratamento('adicao')">+</button><br><!--
+                            SEGUNDA LINHA DE TECLAS
+                        --><button id="quatro" type="button" name="quatro" value="4" onclick="tratamento('quatro')">4</button><!--
+                        --><button id="cinco" type="button" name="cinco" value="5" onclick="tratamento('cinco')">5</button><!--
+                        --><button id="seis" type="button" name="seis" value="6" onclick="tratamento('seis')">6</button><!--
+                        --><button class="operacoes" id="subtracao" type="button" name="subtracao" value="subtracao" onclick="tratamento('subtracao')">-</button><br><!--
+                            TERCEIRA LINHA DE TECLAS
+                        --><button id="um" type="button" name="um" value="1" onclick="tratamento('um')">1</button><!--
+                        --><button id="dois" type="button" name="dois" value="2" onclick="tratamento('dois')">2</button><!--
+                        --><button id="tres" type="button" name="tres" value="3" onclick="tratamento('tres')">3</button><!--
+                        --><button class="operacoes" id="multiplicacao" type="button" name="multiplicacao" value="multiplicacao" onclick="tratamento('multiplicacao')">*</button><br><!--
+                            QUARTA LINHA DE TECLAS
+                        --><button id="zero" type="button" name="zero" value="0" onclick="tratamento('zero')">0</button><!--
+                        --><button id="virgula" type="button" name="virgula" value="." onclick="tratamento('virgula')">,</button><!--
+                        --><input id="enter" type="reset" name="enter" value="ENTER" onclick="op()"><!--
+                        --><button class="operacoes" id="divisao" type="button" name="divisao" value="divisao" onclick="tratamento('divisao')">/</button><br>
+                    </div>
+                    <h2>Uma operação com dois operandos por vez</h2>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
