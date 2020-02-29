@@ -109,7 +109,7 @@ function op() {
     }
 
     document.getElementById('visor').placeholder = resultado;
-    operando1 = null;
+    operando1 = resultado;
     operando2 = null;
     operacao = null;
     aux = null;
