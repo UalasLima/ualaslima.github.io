@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: audiowide;
+    src: url(../fontes/Audiowide-Regular.ttf);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: blue;
+    background-image: linear-gradient(to right, #03004a, #030010ff);
+    font-family: audiowide, monospace;
+}
+
+img {
+    width:15%;
+    height: 15%;
+}
+
+#cabecalho-do-site figure{
+    margin: 0.4%;
+}
+img#foto-perfil {
+    border-radius: 50%;
+    width: 15%;
+    height: 220%;
+    margin: 2%;
+    margin-right: 0;
+}
+
+/* FORMATAÇÃO DO CABEÇALHO */
+header#cabecalho-do-site {
+    background-image: linear-gradient(to bottom right, #cc0000, #030010ff);
+    display: block;
+    width: 100%;
+    position: fixed;
+    height: 17%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+#cabecalho-do-site h2 {
+    display: none;
+}
+#cabecalho-do-site ul {
+    position: relative;
+    margin-top: -11%;
+    margin-left: 19%;
+    background-image: linear-gradient(to right, white, #030010ff);
+    height: 25px;
+    width: 70%;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+#cabecalho-do-site li {
+    float: left;
+    list-style-type: none;
+    color: #03004a;
+}
+#cabecalho-do-site a {
+    color: #03004a;
+}
+#cabecalho-do-site span {
+    margin: 30px;
+}
+#cabecalho-do-site a {
+    text-decoration: none;
+}
+
+div#view {
+    position: relative;
+    top: 170px;
+    z-index: 1;
+    width: 70%;
+    margin-left: 19%;
+}
+.separadores {
+    background-image: linear-gradient(to bottom right, #cc0000, #030010ff);
+    height: 2px;
+    margin-top: 40px;
+}
+#separador-barra-menus {
+    margin-top: 0;
+}
+
+
+/* FORMATAÇÃO DA SEÇÃO QUEM SOU EU */
+section#quem-sou-eu {
+    color: #ffff6a;
+    margin-bottom: 40px;
+}
+#quem-sou-eu code, h1 {
+    font-size: 1.15rem;
+}
+#quem-sou-eu h1#eu i {
+    font-weight: normal;
+}
+#quem-sou-eu span.funcao-fake {
+    margin-left: 0;
+}
+#quem-sou-eu span.atributo-fake {
+    margin-left: 2rem;
+    color: #b6e4f2;
+}
+#quem-sou-eu span.variavel {
+    color: #ff5555;
+    font-style: italic;
+}
+#quem-sou-eu span.tag-fake {
+    margin-left: 0;
+}
+#quem-sou-eu span.funcao-fake {
+    margin-left: 0;
+    color: #00FF00;
+}
+#quem-sou-eu span.funcao-fake strong {
+    color: #ff5555;
+    font-weight: normal;
+}   
+#quem-sou-eu span.comentario-fake {
+    margin-left: 2rem;
+    color: #cccccc97;
+}
+#quem-sou-eu span.chama-funcao-fake {
+    margin-left: 2rem;
+    color: #b6e4f2;
+}
+#quem-sou-eu span.tag-fake-interna {
+    margin-left: 2rem;
+    color: #00FF00;
+}
+#quem-sou-eu span.tag-fake-interna strong, a {
+    font-weight: 900;
+    color: #ffff6a;
+    text-decoration: none;
+}
+.chama-funcao-fake strong {
+    font-weight: normal;
+    color: #ff5555;
+}
+#quem-sou-eu span.tag-fake-interna i{
+    color: #b6e4f2;
+}
+#quem-sou-eu i {
+    /*CORES #b6e4f2 e004ca */
+    color: #00FF00;
+}
+
+
+/* FORMATAÇÃO SEÇÃO GITHUB PAGES */
+section div#div-portfolio-git-pages {
+    color: white;
+    height: auto;
+}
+#div-portfolio-git-pages figure {
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+#div-portfolio-git-pages img {
+    width: 100%;
+    height: 90%;
+    transition: all 0.7s;
+}
+.prints-portfolio:hover img {
+    transform: scale(1.04);
+}
+.portfolio-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;    
+}
+#div-portfolio-git-pages h2 {
+    margin-bottom: 0.1rem;
+    font-size: 1.6rem;
+}
+#div-portfolio-git-pages h4 {
+    font-family: arial, sans-serif;
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+#div-portfolio-git-pages a, figcaption {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-weight: 900;
+    padding: 0;
+}
+
+
+/* FORMATAÇÃO SEÇÃO REPOSITÓRIOS */
+#repositorios {
+    margin-bottom: 300px;
+}
+#div-repositorios h2 {
+    margin-bottom: 0.1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+#div-repositorios a, #div-repositorios figcaption {
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 70%;
+    padding-top: 25px;
+    margin-bottom: 90px;
+}
+#div-repositorios img {
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+}
+#div-repositorios figure {
+    margin-left: 0;
+}
+
+
+/* FORMATAÇÃO DO RODAPÉ DA PÁGINA */
+div#div-rodape {
+    margin-top: 200px;
+    width: 101.1%;
+    height: 130px;
+    margin: 200px auto -15px -7px;
+}
+footer#rodape {
+    background-image: linear-gradient(to bottom right, #cc0000, #030010ff);
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    font-family: audiowide, monospace;
+    color: white;
+}
+#rodape figure {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-top: -93px;
+    margin-right: 5rem;
+}
+#rodape img {
+    width: 100%;
+    height: 100%;
+}
+#rodape h3 {
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.3rem;
+}
+#rodape p{
+    margin-left: 2rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+a#email {
+    font-family: audiowide, monospace;
+    color: white;
+}
