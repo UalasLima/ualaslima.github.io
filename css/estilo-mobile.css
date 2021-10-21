@@ -202,6 +202,7 @@ section div#div-portfolio-git-pages {
 #repositorios {
     margin-bottom: 0;
     width:100%;
+    background-color: red;
 }
 #div-repositorios h2 {
     margin-bottom: 0.1rem;
